@@ -1,0 +1,172 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    Width: 83px;
+    Height: 21px;
+    margin: 47px 36px 0 43px;
+    }
+
+.button-menu{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    Width: 124px;
+    Height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    }
+
+
+
+    img{
+        width: 533.83px;
+        height: 466.9px;
+        left: 182.18px;
+        top: 277.2px;
+        margin: 140px 30px;
+        margin-left: 8%;
+  
+    }
+
+header{
+    display:inline-block;
+    position: absolute;
+}
+
+    h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    width: 582px;
+    height: 164px;
+    left: 801px;
+    top: 342px;
+    color: #161A49;
+   
+    cursor: pointer;
+    margin: auto;
+    }
+
+    p{
+    width: 493px;
+    height: 99px;
+    left: 801px;
+    top: 553px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    display:inline-block;
+    position: absolute;
+    cursor:pointer;
+
+    }
+    .button-section{
+    height: 27px;
+    left: 55.62%;
+    right: 36.6%;
+    top: calc(50% - 27px/2 + 296.5px);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    display:inline-block;
+    position: absolute;
+    cursor: pointer;
+    Width: 128px;
+    Height:27px;
+    Top:707px;
+    Left:801px;
+    }
+
+    
+
+@media screen and (max-width:900px) {
+    
+.button-menu {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    Width: 91px;
+    Height: 31px;
+    Radius: 6px;
+    float: right;
+    margin: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+    margin: 23px 49px 41px 3px;
+}
+
+    
+.menu{
+    display: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size:47 px;
+    line-height: -19px;
+    text-align: center;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    position: static;
+    margin: 45px 56px -55px 155px;
+    line-height: 60px;
+}  
+    
+
+
+img{
+    position: absolute;
+    width: 329.92px;
+    height: 325.93px;
+    margin: 259.97px 39px 23.1px 71.08px;
+   
+}
+
+p {
+    display: block;
+    position: static;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 40px 0px 50px 187px;
+}
+.button-section{
+    display: block;
+    position: static;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin: 23px 37px 139px 355px;
+}
+
+}
